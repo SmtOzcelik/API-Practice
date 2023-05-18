@@ -1,4 +1,5 @@
 
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
@@ -41,7 +42,7 @@ public class Get_Practice01 {
         // 2) assertThat ile
         response.then().assertThat()
                 .statusCode(200)
-                .contentType("application/json; charset=utf-8")
+                .contentType(ContentType.JSON)
                 .statusLine("HTTP/1.1 200 OK");
 
     }
