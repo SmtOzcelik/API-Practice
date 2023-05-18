@@ -27,7 +27,7 @@ public class Get_Practice01 {
 
         // response.peek();
 
-        // response.print();     //string olarak dataye verir
+        //response.print();     //string olarak dataye verir
         // [{"bookingid":1215},{"bookingid":844},{"bookingid":87},{"bookingid":747}, ...]
 
         System.out.println(response.statusCode());
@@ -44,6 +44,9 @@ public class Get_Practice01 {
                 .statusCode(200)
                 .contentType(ContentType.JSON)
                 .statusLine("HTTP/1.1 200 OK");
+
+        System.out.println(response.getHeaders());//tum headers leri yazdirdik
+        System.out.println(response.getHeader("Server")); // headers da Server in degeririni aldik
 
     }
 }
