@@ -22,7 +22,6 @@ public class Get_Practice05 extends Authentication {
         response.then().assertThat().body("accounts[0].balance",equalTo(69700));
         response.then().assertThat().body("accounts[1].balance",equalTo(11190));
 
-
         // JsonPath ile dogrulama yöntemi
         JsonPath json=response.jsonPath();
         assertEquals(114351,json.getInt("id"));
