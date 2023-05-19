@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class Get_Prectice04 {
+public class Get_Practice04 {
     @Test
     public void get04(){
 
