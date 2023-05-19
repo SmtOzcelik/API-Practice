@@ -10,6 +10,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertEquals;
 
 public class Get_Practice05 extends Authentication {
+    //Bu class da generateToken() methodunu Authentication classindan kullanarak yaptik
     @Test
     public void get05(){
         String Url="http://www.gmibank.com/api/tp-customers/114351";
