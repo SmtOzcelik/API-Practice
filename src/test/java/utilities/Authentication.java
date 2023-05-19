@@ -15,6 +15,7 @@ public class Authentication {
         String guncelToken=generateToken();
         System.out.println(guncelToken);
     }
+    görmek icin yaptik sonra pasif hale getirdik
     */
 
     public static String generateToken(){
