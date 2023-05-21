@@ -3,8 +3,9 @@ package Base_Url;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
+import utilities.Authentication;
 
-public class GmiBankBaseUrl {
+public class GmiBankBaseUrl extends Authentication {
 
     protected RequestSpecification spec;
     @Before
