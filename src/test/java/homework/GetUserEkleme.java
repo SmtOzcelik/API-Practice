@@ -1,7 +1,7 @@
 package homework;
 
 public class GetUserEkleme {
-    //
+    //pojo-ObjectMapper ile cözüm
 
     /*
     1-https://petstore.swagger.io/v2/user
