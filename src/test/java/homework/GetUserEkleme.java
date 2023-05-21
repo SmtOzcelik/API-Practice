@@ -11,7 +11,7 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertEquals;
 
 public class GetUserEkleme extends PetStoreBaseUrl {
-    //pojo-Matcher body  ile cözüm
+    //pojo-Matcher body ve JsonPath ile cözüm
 
     /*
     1-https://petstore.swagger.io/v2/user
