@@ -1,5 +1,6 @@
 package get_requests;
 
+
 import Base_Url.GmiBankBaseUrl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
