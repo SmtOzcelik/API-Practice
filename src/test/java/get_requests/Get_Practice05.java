@@ -1,3 +1,5 @@
+package get_requests;
+
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;

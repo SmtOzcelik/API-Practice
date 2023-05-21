@@ -1,3 +1,4 @@
+package get_requests;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
